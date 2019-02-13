@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align: right">
+  <h1>
+    INI Tugas Pertama Biodata
+  </h1>
+  <h1>{{tanggal | date:"fullDate"}}</h1>
+</div>
+<div style="text-align: left">
+  <h1>Nama : {{nama}}</h1>
+  <h1>Alamat : {{alamat}}</h1>
+</div>
+<th><h2>Hobby Saya : </h2></th>
+  <table border=1>
+    <tr>
+      <th><h1>No.</h1></th>
+      <th><h1>Hobby</h1></th>
+      <th><h1>Keterangan</h1></th>
+    </tr>
+    <tr *ngFor="let Hobby of hby">
+      <td><h1>{{ Hobby.id }}</h1></td>
+      <td><h1>{{ Hobby.hobby }}</h1></td>
+      <td><h1>{{ Hobby.ket }}</h1></td>
+    </tr>
+  </table>
+
+<router-outlet></router-outlet>
