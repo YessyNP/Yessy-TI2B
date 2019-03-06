@@ -14,7 +14,7 @@
 
 * Buka	file	app.modules.ts	dan	hapus	coursecomponent	pada	declarations 
 ![](image/Jobsheet3/3.PNG)
-* Kemudian	lakukan	inspect	pada	halaman	localhost	:	4200	di	browser,	apa	yang	terlihat?	Berikan	penjelasan	(soal	4)	
+* Kemudian	lakukan	inspect	pada	halaman	localhost	:	4200	di	browser,	apa	yang	terlihat?	Berikan	penjelasan	(soal	4)
 ![](image/Jobsheet3/3 js 3.PNG)
 
 **Praktikum	–	Bagian	2:	Templates**
