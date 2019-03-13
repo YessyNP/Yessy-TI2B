@@ -3,19 +3,19 @@
 **Praktikum	–	Bagian	1:	Component	Basic**
 
 * Buatlah	sebuah	componen	dengan	nama	courses
-![](image/Jobsheet3/1.png)
+![](image/Jobsheet3/1.PNG)
 * Buka	file	app.component.html,	lakukan	modifikasi	code	nya	menjadi	seperti	berikut	:
 ```typescript
 <app-courses></app-courses>
 <router-outlet></router-outlet>
 ```
 * Kemudian	open	terminal	dan	jalan	kan	perintah	ng	serve,	lalu	perhatikan	pada	browser.	Catat	hasilnya
-![](image/Jobsheet3/2.png)
+![](image/Jobsheet3/2.PNG)
 
 * Buka	file	app.modules.ts	dan	hapus	coursecomponent	pada	declarations 
-![](image/Jobsheet3/3.png)
-* Kemudian	lakukan	inspect	pada	halaman	localhost	:	4200	di	browser,	apa	yang	terlihat?	Berikan	penjelasan	(soal	4)	
-![](image/Jobsheet3/3 js 3.png)
+![](image/Jobsheet3/3.PNG)
+* Kemudian	lakukan	inspect	pada	halaman	localhost	:	4200	di	browser,	apa	yang	terlihat?	Berikan	penjelasan	(soal	4)
+![](image/Jobsheet3/3 js 3.PNG)
 
 **Praktikum	–	Bagian	2:	Templates**
 * Buka	file	courses.component.ts	tambahkan	property	baru	dengan	nama	title	
@@ -34,7 +34,7 @@ export class CoursesComponent implements OnInit{
 }
 ```
 * Kemudian	buka	browser	localhost	:	4200.	Catat	hasilnya
-![](image/Jobsheet3/5.png)
+![](image/Jobsheet3/5.PNG)
 
 * Tambahkan	string	pada	binding	datanya.	Buka	file	courses.component.html.	tambahkan	seperti	berikut	:
 ```typescript
@@ -46,7 +46,7 @@ export class CoursesComponent implements OnInit{
 </p>
 ```
 * Perhatikan	dan	catat	hasil	yang	ditampilkan	oleh	browser
-![](image/Jobsheet3/6.1.png)
+![](image/Jobsheet3/6.1.PNG)
 
 * Buka	file	courses.component.ts	dan	buatlah	sebuah	method	dengan	nama	getTitle	seperti	berikut	ini	:	
 ```typescript
@@ -67,10 +67,10 @@ export class CoursesComponent implements OnInit{
 }
 ```
 * Kemudian	buka	file	courses.component.html,	lakukan	modifikasi	sperti	berikut	:	
-![](image/Jobsheet3/7.1.png)
+![](image/Jobsheet3/7.1.PNG)
 
 * Perhatikan	dan	catat	hasil	yang	ditampilkan	pada	browser
-![](image/Jobsheet3/7.2.png)
+![](image/Jobsheet3/7.2.PNG)
 
 **Praktikum	-	Bagian	3:	Directive**
 * Buka	file	courses.component.ts	dan	buat	property	dengan	nama	course	dengan	data	berupa	array
@@ -96,14 +96,14 @@ constructor() { }
 }
 ```
 * Buka	file	courses.component.html	lalu	tambahkan	directive	ngFor	dan	string	interpolation	seperti	berikut
-![](image/Jobsheet3/capture.png)
+![](image/Jobsheet3/capture.PNG)
 
 * Perhatikan	dan	catat	hasil	yang	ditampilkan	pada	browser	
-![](image/Jobsheet3/8.1.png)
+![](image/Jobsheet3/8.1.PNG)
 
 **Praktikum	–	Bagian	4:	Services	dan	Dependency	Injection**
 * Buatlah	service	baru	yang	bernama	courses	dengan	perintah		:	ng	generate	service	courses	atau	ng	g	s	courses	
-![](image/Jobsheet3/9.png)
+![](image/Jobsheet3/9.PNG)
 
 * Buka	file	courses.service.ts	kemudian	tambahkan	method	getCourse	seperti	berikut	:	
 ```typescript
