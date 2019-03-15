@@ -1,7 +1,7 @@
 # Directive
 
 **1. NgIF**
-- Buka file
+* Buka file
 ![](image/Jobsheet 5/1.png)
 
 - Buka file
