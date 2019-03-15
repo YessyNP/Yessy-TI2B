@@ -2,103 +2,103 @@
 
 **1. NgIF**
 - Buka file
-![](image/Jobsheet5/1.PNG)
+![](image/Jobsheet5/1.png)
 
 - Buka file
-![](image/Jobsheet5/1.PNG)
+![](image/Jobsheet5/1.png)
 
 - Jalankan locallhost maka hasilnya seperti berikut :
-![](image/Jobsheet5/3.PNG)
+![](image/Jobsheet5/3.png)
 
 - Jika array pada app.component.ts (courses=[];) dikosongkan maka hasilnya seperti berikut :
- ![](image/Jobsheet5/4.PNG)
+ ![](image/Jobsheet5/4.png)
  
 *contoh kedua  menggunakan else:*
 - buka file app.component.html modifikasi kodenya menjadi berikut  
- ![](image/Jobsheet5/p 2.PNG)
+ ![](image/Jobsheet5/p 2.png)
 
 - jalankan localhost dengan kondisi array pada app.component 
 * dengan array kosong
 
-![](image/Jobsheet5/6.PNG)
+![](image/Jobsheet5/6.png)
 
-![](image/Jobsheet5/p 2 kosong.PNG)
+![](image/Jobsheet5/p 2 kosong.png)
 
 * dengan array ada isi
 
-![](image/Jobsheet5/7.PNG)
+![](image/Jobsheet5/7.png)
 
-![](image/Jobsheet5/3.PNG)
+![](image/Jobsheet5/3.png)
 
 *Cara ketiga*
 
 - Buka file app.component.html modifikasi kodenya menjadi berikut
-![](image/Jobsheet5/p 3.PNG)
+![](image/Jobsheet5/p 3.png)
 - jalankan localhost dengan kondisi array pada app.component
 
 * dengan array kosong
 
-![](image/Jobsheet5/6.PNG)
+![](image/Jobsheet5/6.png)
 
-![](image/Jobsheet5/p 2 kosong.PNG)
+![](image/Jobsheet5/p 2 kosong.png)
 
 * dengan array ada isi
 
-![](image/Jobsheet5/7.PNG)
+![](image/Jobsheet5/7.png)
 
-![](image/Jobsheet5/3.PNG)
+![](image/Jobsheet5/3.png)
 
 **Hidden Property**
 
 - buka app.component.html 
-![](image/Jobsheet5/hidden.PNG)
+![](image/Jobsheet5/hidden.png)
 
 - jalankan localhost maka hasilnya seperti berikut : 
-![](image/Jobsheet5/hasil hidden.PNG)
+![](image/Jobsheet5/hasil hidden.png)
 
 - selain contoh diatas kita juga dapat memberikan property seperti berikut:
-![](image/Jobsheet5/c h p.PNG)
+![](image/Jobsheet5/c h p.png)
 
 - jalankan localhost (berbeda hasil jika pada array courses tidak terdapat isinya)
-![](image/Jobsheet5/hasil chp.PNG)
+![](image/Jobsheet5/hasil chp.png)
 
 - Jika kita inspect element maka akan terlihat property hidden tidak terdapat kondisi true ataupun false.
-![](image/Jobsheet5/true.PNG)
+![](image/Jobsheet5/true.png)
 
 - berbeda jika kita menggunakan ngIF terdapat bindings dengan nilai false 
-![](image/Jobsheet5/false.PNG)
+![](image/Jobsheet5/false.png)
 
 **ngSwitchCase**
 
 - buka file app.component.html modifikasi codenya menjadi seperti berikut 
-![](image/Jobsheet5/switch case.PNG)
+![](image/Jobsheet5/switch case.png)
 
 - buka file app.component.ts tambahkan property viewMode (line 12) 
-![](image/Jobsheet5/switch case 2.PNG)
+![](image/Jobsheet5/switch case 2.png)
 
 -  run localhost maka hasilnya seperti berikut saat diklik list view maka akan muncul list view content dan jika kita pilih ListView maka akan tampil tulisan List View Content 
- ![](image/Jobsheet5/hasil switch case.PNG)
+ ![](image/Jobsheet5/hasil switch case.png)
  
 **NgFor**
 - buka app.component.ts property CoursesFor yang berisikan array (line 12) 
- ![](image/Jobsheet5/ng for 2.PNG)
+ ![](image/Jobsheet5/ng for 2.png)
 
  - - buka file app.component.html tambahkan directive ngFor pada element li
- ![](image/Jobsheet5/ng for 1.PNG)
+ ![](image/Jobsheet5/ng for 1.png)
 
  - jika dijalankan maka hasilnya seperti berikut
-  ![](image/Jobsheet5/hasil ng for.PNG)
+  ![](image/Jobsheet5/hasil ng for.png)
 
   - kita juga dapat memberi tanda tertentu pada index yang bernilai ganjil dengan menggunakan isEven https://angular.io/api/common/NgForOf  
-   ![](image/Jobsheet5/ng for even 1.PNG)
-   ![](image/Jobsheet5/hasil even.PNG)
+   ![](image/Jobsheet5/ng for even 1.png)
+   ![](image/Jobsheet5/hasil even.png)
 
 **6.1 ngFor dan change Detection**
 - tambahkan button pada app.component.html (line 64) 
- ![](image/Jobsheet5/change detection 1.PNG)
+ ![](image/Jobsheet5/change detection 1.png)
 
  - tambahkan method onAdd()
-  ![](image/Jobsheet5/change detection 2.PNG)
+  ![](image/Jobsheet5/change detection 2.png)
 
  - sehingga hasilnya seperti berikut (jika kita tekan button add maka akan ditambahkan sebuah data courses 6) 
     ![](image/Jobsheet5/hasil change.PNG)
