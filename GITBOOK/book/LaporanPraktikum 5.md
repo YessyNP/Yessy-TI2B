@@ -2,10 +2,10 @@
 
 **1. NgIF**
 - Buka file
-![](image/Jobsheet5/1.png)
+![](image/Jobsheet 5/1.png)
 
 - Buka file
-![](image/Jobsheet5/1.png)
+![](image/Jobsheet 5/1.png)
 
 - Jalankan locallhost maka hasilnya seperti berikut :
 ![](image/Jobsheet5/3.png)
