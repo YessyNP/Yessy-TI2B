@@ -1,11 +1,11 @@
 # Directive
 
 **1. NgIF**
-* Buka file
-![](image/Jobsheet 5/1.png)
+- Buka file
+![](image/Jobsheet5/1.png)
 
 - Buka file
-![](image/Jobsheet 5/1.png)
+![](image/Jobsheet5/1.png)
 
 - Jalankan locallhost maka hasilnya seperti berikut :
 ![](image/Jobsheet5/3.png)
@@ -91,7 +91,8 @@
 
   - kita juga dapat memberi tanda tertentu pada index yang bernilai ganjil dengan menggunakan isEven https://angular.io/api/common/NgForOf  
    ![](image/Jobsheet5/ng for even 1.png)
-   ![](image/Jobsheet5/hasil even.png)
+
+    ![](image/Jobsheet5/hasil even.png)
 
 **6.1 ngFor dan change Detection**
 - tambahkan button pada app.component.html (line 64) 
@@ -101,91 +102,91 @@
   ![](image/Jobsheet5/change detection 2.png)
 
  - sehingga hasilnya seperti berikut (jika kita tekan button add maka akan ditambahkan sebuah data courses 6) 
-    ![](image/Jobsheet5/hasil change.PNG)
-    ![](image/Jobsheet5/hasil change 2.PNG)
+    ![](image/Jobsheet5/hasil change.png)
+    ![](image/Jobsheet5/hasil change 2.png)
 
 - Tambahkan sebuah method onRemove pada app.component.ts 
-![](image/Jobsheet5/8.PNG)
+![](image/Jobsheet5/8.png)
 
 - Buka app.component.html dan tambahkan sebuah button untuk menghapus (line69)
-![](image/Jobsheet5/remove.PNG)
+![](image/Jobsheet5/remove.png)
 
 - hasilnya seperti berikut (pada saat button remove diclick maka salah satu data akan hilang sementara)
-![](image/Jobsheet5/remove hasil.PNG)
-![](image/Jobsheet5/setelah remove.PNG)
+![](image/Jobsheet5/remove hasil.png)
+![](image/Jobsheet5/setelah remove.png)
 
 - buka file app.component.html tambahkan button (line 70) 
-![](image/Jobsheet5/update 1.PNG)
+![](image/Jobsheet5/update 1.png)
 
 - buka file app.component.ts buatlah sebuah method onChange dengan parameter item dan didalam method tersebut adanya perubahan string menjadi updated 
-![](image/Jobsheet5/update 2.PNG)
+![](image/Jobsheet5/update 2.png)
 
 - hasilnya 
-![](image/Jobsheet5/hasil update.PNG)
+![](image/Jobsheet5/hasil update.png)
 
 **ngFor dan trackby**
 
 - Buka file app.component.ts buatlah sebuah method dengan nama loadCourses (line 38) tapi sebelumnya buat sebuah property dengan nama coursesForOne (line 37) 
-![](image/Jobsheet5/trackby.PNG)
+![](image/Jobsheet5/trackby.png)
 
 - buka file app.component.html dan tambahkan code seperti pada gambar
-![](image/Jobsheet5/13.PNG)
+![](image/Jobsheet5/13.png)
 
 - hasilnya saat button diclick
-![](image/Jobsheet5/hasil trackby 1.PNG)
-![](image/Jobsheet5/hasil trackby 2.PNG)
+![](image/Jobsheet5/hasil trackby 1.png)
+![](image/Jobsheet5/hasil trackby 2.png)
 
 - sekarang kita lakukan analisa buka inspect element, saat button belum diclick seperti pada gambar berikut 
-![](image/Jobsheet5/inspect trackby 1.PNG)
+![](image/Jobsheet5/inspect trackby 1.png)
 
 - dan saat button diklik maka element ul akan muncul seperti pada gambar berikut :
- ![](image/Jobsheet5/inspect trackby 2.PNG)
+ ![](image/Jobsheet5/inspect trackby 2.png)
 
 - untuk menambahkan TrackBy dengan cara menambahkan pada app.component.html pada directive ngFor 
-![](image/Jobsheet5/menambahkan trackby 2.PNG)
+![](image/Jobsheet5/menambahkan trackby 2.png)
 
 - selain itu tambahkan juga sebuah method trackCourse dengan parameter index dan itemone pada app.component.ts
-![](image/Jobsheet5/menambahkan trackby 3.PNG)
+![](image/Jobsheet5/menambahkan trackby 3.png)
 
 **6.1 The leading Asterik**
 
-![](image/Jobsheet5/the leading.PNG)
+![](image/Jobsheet5/the leading.png)
 
 **6.1 ngClass**
 
-![](image/Jobsheet5/class.PNG)
+![](image/Jobsheet5/class.png)
 
 **6.1 Custom Directive**
 - pertama kita harus membuat directive dengan nama input-format terlebih dahulu dengan perintah seperti berikut
-![](image/Jobsheet5/install input format.PNG)
+![](image/Jobsheet5/install input format.png)
 
 - jika directive berhasil digenerate maka kita pastikan di app.module.ts pada @NgModule terdapat nama directive yang kita buat tadi 
- ![](image/Jobsheet5/ng modul.PNG)
+ ![](image/Jobsheet5/ng modul.png)
  
  - buka input-format.directive.ts dan tambahkan decorator HostListener seperti pada gambar berikut
-  ![](image/Jobsheet5/host listener.PNG)
+  ![](image/Jobsheet5/host listener.png)
 
 - Buka file app.component.html dan tambahakn code berikut
-  ![](image/Jobsheet5/buka input 1.PNG)
+  ![](image/Jobsheet5/buka input 1.png)
 
 - buka file input-format.directive.ts dan modifikasi codenya menjadi berikut 
- ![](image/Jobsheet5/12.PNG)
+ ![](image/Jobsheet5/12.png)
 
  - buka file app.component.html dan tambahkan property binding dengan nama format 
-  ![](image/Jobsheet5/15.PNG)
+  ![](image/Jobsheet5/15.png)
 
 - buka file input-format.directive.ts tambahkan decorator input dan modifikasi codenya seperti pada gambar berikut
-    ![](image/Jobsheet5/18.PNG)
+    ![](image/Jobsheet5/18.png)
 
 - cat:format disini adalah kondisi di app.component.html 
-    ![](image/Jobsheet5/20.PNG)
+    ![](image/Jobsheet5/20.png)
 
 - buka app.component.hml modifikasi codenya menjadi berikut
- ![](image/Jobsheet5/21.PNG)
+ ![](image/Jobsheet5/21.png)
 
  - buka input-format.directive.ts dan tambahkan decorator input dengan parameter appInputFormat 
-  ![](image/Jobsheet5/22.PNG)
+  ![](image/Jobsheet5/22.png)
 
   - HASIL
-    ![](image/Jobsheet5/hasil akhir.PNG)
-    ![](image/Jobsheet5/hasil akhir 2.PNG)
+    ![](image/Jobsheet5/hasil akhir.png)
+    ![](image/Jobsheet5/hasil akhir 2.png)
