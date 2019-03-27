@@ -59,7 +59,7 @@
     ![](image/Jobsheet8/4.2.png)
 
 3. Jalankan dan Catat hasilnya (soal 6)
-    ![](image/Jobsheet8/h4.png)
+    ![](image/Jobsheet8/h.4.png)
 
 4. Modifikasi signup-form.component.html menjadi seperti berikut:
     ![](image/Jobsheet8/4.3.png)
