@@ -59,13 +59,13 @@
     ![](image/Jobsheet8/4.2.png)
 
 3. Jalankan dan Catat hasilnya (soal 6)
-    ![](image/Jobsheet8/4.h4.png)
+    ![](image/Jobsheet8/h.4.png)
 
 4. Modifikasi signup-form.component.html menjadi seperti berikut:
     ![](image/Jobsheet8/4.3.png)
 
 5. jalankan dan Catat hasilnya (soal 7)
-    ![](image/Jobsheet8/4.4a.png)
+    ![](image/Jobsheet8/h.4a.png)
 
 **Praktikum - Bagian 5: Custome Validation**
 
