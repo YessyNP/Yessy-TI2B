@@ -81,7 +81,7 @@
 4. tambahkan atribut name pada tag input :
 ![](image/Jobsheet6/23.png)
 
-5. - jalankan servernya ( cat:tidak perlu diklik button untuk menampilkan data karena tidak menggunakan event binding jadi inputan akan langsung tampil saat user memasukan data) 
+5. jalankan servernya ( cat:tidak perlu diklik button untuk menampilkan data karena tidak menggunakan event binding jadi inputan akan langsung tampil saat user memasukan data) 
 ![](image/Jobsheet6/24.png)
 
 6. buka file contact.component.html modifikasi code berikut ini: 
