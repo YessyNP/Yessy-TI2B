@@ -1,11 +1,14 @@
 # Directive
 
 **1. NgIF**
-1. Buka file
-![](image/Jobsheet5/1.png)
 
-2. Buka file
-![](image/Jobsheet5/2.png)
+1. Buka file :
+
+  ![](image/Jobsheet5/1.png)
+
+2. Buka file:
+
+  ![](image/Jobsheet5/2.png)
 
 3. Jalankan locallhost maka hasilnya seperti berikut :
 ![](image/Jobsheet5/3.png)
@@ -187,5 +190,7 @@ dengan array kosong
   ![](image/Jobsheet5/22.png)
 
 11. HASIL
+
     ![](image/Jobsheet5/ha1.png)
+    
     ![](image/Jobsheet5/ha2.png)
