@@ -52,7 +52,8 @@ dengan array kosong
 
 **Hidden Property**
 
-1. buka app.component.html 
+1. buka app.component.html :
+
 ![](image/Jobsheet5/hidden.png)
 
 2. jalankan localhost maka hasilnya seperti berikut : 
@@ -82,6 +83,7 @@ dengan array kosong
  ![](image/Jobsheet5/hsc.png)
  
 **NgFor**
+
 4. buka app.component.ts property CoursesFor yang berisikan array (line 12) 
  ![](image/Jobsheet5/ngf2.png)
 
