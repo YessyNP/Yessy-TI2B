@@ -59,7 +59,7 @@ dengan array kosong
 ![](image/Jobsheet5/chp.png)
 
 4. jalankan localhost (berbeda hasil jika pada array courses tidak terdapat isinya)
-![](image/Jobsheet5/hasil chp.png)
+![](image/Jobsheet5/hcp.png)
 
 5. Jika kita inspect element maka akan terlihat property hidden tidak terdapat kondisi true ataupun false.
 ![](image/Jobsheet5/true.png)
