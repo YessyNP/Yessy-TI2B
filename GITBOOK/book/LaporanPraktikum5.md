@@ -1,11 +1,14 @@
 # Directive
 
 **1. NgIF**
-1. Buka file
-![](image/Jobsheet5/1.png)
 
-2. Buka file
-![](image/Jobsheet5/2.png)
+1. Buka file :
+
+  ![](image/Jobsheet5/1.png)
+
+2. Buka file:
+
+  ![](image/Jobsheet5/2.png)
 
 3. Jalankan locallhost maka hasilnya seperti berikut :
 ![](image/Jobsheet5/3.png)
@@ -49,7 +52,8 @@ dengan array kosong
 
 **Hidden Property**
 
-1. buka app.component.html 
+1. buka app.component.html :
+
 ![](image/Jobsheet5/hidden.png)
 
 2. jalankan localhost maka hasilnya seperti berikut : 
@@ -59,7 +63,7 @@ dengan array kosong
 ![](image/Jobsheet5/chp.png)
 
 4. jalankan localhost (berbeda hasil jika pada array courses tidak terdapat isinya)
-![](image/Jobsheet5/hasil chp.png)
+![](image/Jobsheet5/hcp.png)
 
 5. Jika kita inspect element maka akan terlihat property hidden tidak terdapat kondisi true ataupun false.
 ![](image/Jobsheet5/true.png)
@@ -79,6 +83,7 @@ dengan array kosong
  ![](image/Jobsheet5/hsc.png)
  
 **NgFor**
+
 4. buka app.component.ts property CoursesFor yang berisikan array (line 12) 
  ![](image/Jobsheet5/ngf2.png)
 
@@ -187,5 +192,7 @@ dengan array kosong
   ![](image/Jobsheet5/22.png)
 
 11. HASIL
+
     ![](image/Jobsheet5/ha1.png)
+    
     ![](image/Jobsheet5/ha2.png)
