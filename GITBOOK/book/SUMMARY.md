@@ -37,4 +37,8 @@
 * [34. LaporanPraktikum2](LaporanPraktikum2.md)
 * [35. LaporanPraktikum3](LaporanPraktikum3.md)
 * [36. LaporanPraktikum4](LaporanPraktikum4.md)
-
+* [37. LaporanPraktikum5](LaporanPraktikum5.md)
+* [38. LaporanPraktikum6](LaporanPraktikum6.md)
+* [39. LaporanPraktikum8](LaporanPraktikum8.md)
+* [40. LaporanPraktikum9](LaporanPraktikum9.md)
+* [41. LaporanPraktikum10](LaporanPraktikum10.md)
