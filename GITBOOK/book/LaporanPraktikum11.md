@@ -2,11 +2,11 @@
 ---
 
 #### Praktikum – Bagian 1: Implementation Login
-- Buka folder auth-demo-starter kemudian open terminal dan lakukan ng serve. Catat hasil nya (soal 1)
+1. Buka folder auth-demo-starter kemudian open terminal dan lakukan ng serve. Catat hasil nya (soal 1)
 
 ![](image/Jobsheet11/soal1.png)
 
-- Apabila terjadi error seperti dibawah ini :
+2. Apabila terjadi error seperti dibawah ini :
 
 ![](image/Jobsheet11/soal1.png)
 
