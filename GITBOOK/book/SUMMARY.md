@@ -42,3 +42,4 @@
 * [39. LaporanPraktikum8](LaporanPraktikum8.md)
 * [40. LaporanPraktikum9](LaporanPraktikum9.md)
 * [41. LaporanPraktikum10](LaporanPraktikum10.md)
+* [42. LaporanPraktikum11](LaporanPraktikum11.md)
